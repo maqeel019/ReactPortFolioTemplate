@@ -1,0 +1,210 @@
+:root {
+  --primary-color: #848383;
+  --seconday-color: #00000059;
+  --font-color: rgba(255, 255, 255, 0.998);
+}
+.main {
+  background-image: url(/public/images/background.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 90vh;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-color);
+  text-align: center;
+
+}
+
+.firstCol,
+.firstRow,
+.container,
+a {
+  background-color: #00000000;
+}
+
+.firstRow,
+.firstRow h2,
+.firstRow h1 {
+  font-size: 32px;
+  background-color: #00000000;
+  color: var(--font-color);
+  /* Add your styles for the '.firstRow' div and its child elements here */
+}
+
+.mr-4{
+  background-color: #00000000;
+  width: 40px;
+  height: 40px;
+  margin-left: 5px;
+}
+
+.navbar .nav-link.active {
+  color: white !important;
+}
+.aboutCol{
+  width: 30rem !important;
+  margin-top: 15%;
+  font-size: 18 !important;
+  font-weight: 600;
+
+}.card-title h5{
+  font-size: 28px;
+  font-weight: bolder;
+}
+
+.imageCol {
+  display: flex;
+  justify-content: center;
+}
+
+.imageCol>img {
+  width: 55%;
+}
+
+.CardBody {
+  margin-top: 10px;
+  margin-left: 15%;
+}
+
+.CardBody Button {
+  margin-left: 5px;
+}
+
+section {
+  margin-top: 40px;
+  text-align: center;
+}
+
+section,
+section>h2,
+section>h4,
+.colSec {
+  background-color: #dcdcdc;
+
+}
+
+.colSec {
+  /* background-color: rgb(235, 237, 239); */
+  display: flex;
+  justify-content: space-around !important;
+}
+.section {
+  margin-left: 5%;
+}
+
+.carousel-inner img {
+  max-width: 40%;
+  max-height: 50%;
+  margin: 10px auto 0px auto;
+}
+
+.carouselCaption>p,
+h5 {
+  background-color: rgba(0, 0, 0, 0);
+  color: aliceblue;
+}
+
+.secondSec p,
+h3 {
+  color: black !important;
+  margin-bottom: 20%;
+
+}
+
+.secondSec .carousel-inner img {
+  max-width: 100%;
+  max-height: 50% !important;
+
+}
+
+.carousel-caption,
+.secondSec p,
+h3,
+.carousel-indicators {
+  background-color: rgba(0, 0, 0, 0);
+  text-align: center;
+}
+
+.carousel-caption img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+}
+
+.footer {
+  background-color: #000000b0;
+}
+
+.footer>h1,
+.footer>p,
+.footer>h4,
+.footer>h6 {
+  background-color: #00000000;
+  color: var(--font-color);
+}
+.footer>h6{
+  color: rgba(217, 217, 217, 0.692);
+}
+
+.ColFooter {
+  background-color: #000000af;
+}
+
+.ColFooter  .mr-4 {
+  background-color: #00000000 !important;
+}
+.form-control {
+  margin: 10px;
+}
+svg {
+  margin: 10px 0 20px 0px;
+  align-self : center;
+}
+.footerImg{
+  background-color: #00000000;
+}
+.footerImg > img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.svgIcon{
+  width: 30%;
+  height: 30%;
+  color: rgba(7, 6, 6, 0.804);
+}
+.carousel-control-prev-icon ,.carousel-control-next-icon{
+  background-color: #848383 !important  ;
+}
+
+@media (max-width: 760px) {
+  .secondSec .carousel-inner img{
+    width: 100px;
+  }
+  .carousel-caption{
+    bottom: -4rem !important;
+  }
+  .carousel-indicators {
+      bottom: -1rem !important;
+  }
+ .carousel-inner  img {
+    max-width: 60%;
+  }
+  .carousel-inner h5 {
+    display:none;
+  }
+  .carousel-inner  p{
+    margin-bottom: 60px !important;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .section {
+    background-color: aqua;
+    margin-left: 1%;
+  }
+}
