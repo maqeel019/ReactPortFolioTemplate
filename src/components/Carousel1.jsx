@@ -10,7 +10,7 @@ export default function Carousel1() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="/images/landscape1.jpg"
+            src={process.env.PUBLIC_URL + '/images/landscape1.jpg'} 
             alt="First slide"
           />
           <Carousel.Caption>
@@ -22,7 +22,7 @@ export default function Carousel1() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="/images/landscape1.jpg"
+            src={process.env.PUBLIC_URL + '/images/landscape1.jpg'} 
             alt="Second slide"
           />
 
@@ -35,12 +35,13 @@ export default function Carousel1() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="/images/landscape1.jpg"
+            src={process.env.PUBLIC_URL + '/images/landscape1.jpg'} 
             alt="Third slide"
           />
 
           <Carousel.Caption>
-            <img src="/images/person.png" alt="" />
+            <img src={process.env.PUBLIC_URL + '/images/person.png'} alt="" />
+            
             <h3>Abeye Huduna </h3>
             <p>
               Praesent commodo cursus magna, vel scelerisque nisl consectetur.

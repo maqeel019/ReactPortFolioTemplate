@@ -13,7 +13,7 @@ function DarkVariantExample() {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="/images/person.png"
+              src={process.env.PUBLIC_URL + '/images/person.png'} 
               alt="First slide"
             />
             <Carousel.Caption className="carouselCaption">
@@ -25,7 +25,7 @@ function DarkVariantExample() {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="/images/person.png"
+              src={process.env.PUBLIC_URL + '/images/person.png'} 
               alt="First slide"
             />
             <Carousel.Caption className="carouselCaption">
@@ -37,7 +37,7 @@ function DarkVariantExample() {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="/images/person.png"
+              src={process.env.PUBLIC_URL + '/images/person.png'} 
               alt="First slide"
             />
             <Carousel.Caption className="carouselCaption">
@@ -49,7 +49,7 @@ function DarkVariantExample() {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="/images/person.png"
+              src={process.env.PUBLIC_URL + '/images/person.png'} 
               alt="First slide"
             />
             <Carousel.Caption className="carouselCaption">
@@ -61,7 +61,7 @@ function DarkVariantExample() {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="/images/person.png"
+              src={process.env.PUBLIC_URL + '/images/person.png'} 
               alt="Second slide"
             />
             <Carousel.Caption className="carouselCaption">
@@ -73,7 +73,7 @@ function DarkVariantExample() {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="/images/person.png"
+              src={process.env.PUBLIC_URL + '/images/person.png'} 
               alt="Third slide"
             />
             <Carousel.Caption className="carouselCaption">

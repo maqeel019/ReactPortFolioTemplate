@@ -6,7 +6,7 @@ function NavBar() {
   return (
     <Navbar collapseOnSelect expand="lg" className='Navbar navbar'>
       <Container>
-        <Navbar.Brand href="#home"><img className='navLogo' src="/images/logo2.png" alt="image" style={{borderRadius : '50%'}} /></Navbar.Brand>
+        <Navbar.Brand href="#home"><img className='navLogo' src={process.env.PUBLIC_URL + '/images/logo2.png'}  alt="image" style={{borderRadius : '50%'}} /></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" className='toggle' />
         <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
           <Nav className="justify-content-end">

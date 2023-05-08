@@ -6,7 +6,7 @@ const MyComponent = () => {
   return (
     <Container className="footer d-flex flex-column align-items-center justify-content-center">
       <div className="footerImg">
-        <img src="/images/logo2.png" alt="My Image"/>
+        <img src={process.env.PUBLIC_URL + '/images/logo2.png'}  alt="My Image"/>
       </div>
       <Row>
         <Col className="ColFooter">
