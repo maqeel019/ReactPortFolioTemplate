@@ -55,7 +55,7 @@ function Cards() {
           </Card>
         </Col>
         <Col className="imageCol">
-          <img variant="top" src="/images/IMG_1663.png" alt="image" />
+          <img variant="top" src={process.env.PUBLIC_URL + '/images/IMG_1663.png'}  alt="image" />
         </Col>
       </Row>
       <section id="service">
